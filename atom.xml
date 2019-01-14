@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-11T03:34:14.764Z</updated>
+  <updated>2019-01-14T09:36:05.409Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/01/11/hello-world/"/>
-    <id>http://yoursite.com/2019/01/11/hello-world/</id>
-    <published>2019-01-11T03:44:25.683Z</published>
-    <updated>2019-01-11T03:34:14.764Z</updated>
+    <title>ES6 常用语法</title>
+    <link href="http://yoursite.com/2019/01/14/JavaScript/"/>
+    <id>http://yoursite.com/2019/01/14/JavaScript/</id>
+    <published>2019-01-14T08:44:47.000Z</published>
+    <updated>2019-01-14T09:36:05.409Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;p&gt;&lt;img src=&quot;https://titanjun.oss-cn-hangzhou.aliyuncs.com/javascript/javascropt.jpeg&quot; alt=&quot;mahua&quot;&gt;&lt;br&gt;
     
     </summary>
     
