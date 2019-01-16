@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Flex布局]]></title>
+    <url>%2F2019%2F01%2F16%2FFlex%E5%B8%83%E5%B1%80%2F</url>
+    <content type="text"><![CDATA[1、自适应等宽布局，内容居中，等分宽度(适用菜单)12345678910111213&lt;div class="container"&gt; &lt;span&gt;&lt;/span&gt; &lt;span&gt;&lt;/span&gt;&lt;/div&gt;// scss代码.container &#123; display:flex; justify-content: space-between; // 均匀分布 align-items: center; // 内容居中 &amp; span &#123; flex:1; // 等分大小 &#125;&#125; 1、左边固定，右边100%1234567891011121314&lt;div class="container"&gt; &lt;div class="header"&gt;&lt;/div&gt; &lt;div class="text"&gt;&lt;/div&gt;&lt;/div&gt;// scss代码.container &#123; display:flex; &amp; .header &#123; width:100px; &#125; &amp; .text &#123; flex:1; &#125;&#125;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[ES6 常用语法]]></title>
     <url>%2F2019%2F01%2F14%2FJavaScript%2F</url>
     <content type="text"><![CDATA[1、变量解构赋值1234567891011121314151617181920// 对象赋值let user = &#123; name : "草依山", age : 18&#125;// 获取name属性的值let &#123; name &#125; = userconsole.log(name) // 打印：草依山// 数组赋值let [x,y] = [1,2,3]const.log(x+y) // 打印：3// 字符串赋值let &#123;length : len&#125; = 'hello'console.log(len) // 打印：5// 函数赋值console.log([[1, 2], [3, 4]].map(([a, b]) =&gt; a + b)) // 打印：[3,7]function add([x,y]) &#123; return x + y;&#125;console.log(add([1,2])) // 打印：3 2、数组骚操作123456789101112131415161718192021222324252627282930313233343536// 数组求交集let array = [1,2,3,4,5,6,7].filter(item=&gt;[2,3,5,6,8].indexOf(item)&gt;-1)console.log(array) // 打印：2,3,5,6// 获取两个数组属性id相等的部分let arr1=[&#123;id:1,name:'网'&#125;,&#123;id:2,name:'二位'&#125;]let arr2=[&#123;id:1,name:'问问'&#125;,&#123;id:3,name:'多少'&#125;,&#123;id:44,name:'多少'&#125;, &#123;id:45,name:'多少'&#125;,]let add=arr2.filter(item=&gt;!arr1.some(ele=&gt;ele.id===item.id))console.log(add) // 打印：[&#123;id:2,name:'二位'&#125;,id:3,name:'多少'&#125;,&#123;id:44,name:'多少'&#125;,&#123;id:45,name:'多少'&#125;]// map过滤数组属性let array = [ &#123; name:'张三', nums:55 &#125;]let newArray = array.map(item =&gt; &#123; return &#123; value: item.nums &#125;&#125;)console.log(newArray) // 打印：[55]// 拓展运算符let array = [5,3]console.log(...array) // 打印：5 3// 浅拷贝let a = [5,3]let b = [...a] // 等价于 let a = [5,3] let b = a.concat()// 合并数组let aa = [1,2]let bb = [3,4] let cc = [...aa,...bb] // 打印： [1,2,3,4]]]></content>

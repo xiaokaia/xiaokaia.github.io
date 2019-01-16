@@ -81,14 +81,16 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签列表">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Flex布局">
+<meta property="og:url" content="http://yoursite.com/2019/01/16/Flex布局/index.html">
 <meta property="og:site_name" content="Mr.Wang">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-16T07:47:09.318Z">
+<meta property="og:image" content="http://yoursite.com/images/timg.jpg">
+<meta property="og:updated_time" content="2019-01-16T09:15:15.319Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签列表">
+<meta name="twitter:title" content="Flex布局">
+<meta name="twitter:image" content="http://yoursite.com/images/timg.jpg">
 
 
 
@@ -118,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/16/Flex布局/">
 
 
 
 
 
-  <title>标签列表 | Mr.Wang</title>
+  <title>Flex布局 | Mr.Wang</title>
   
 
 
@@ -281,40 +283,140 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/16/Flex布局/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kairry">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mr.Wang">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">标签列表</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                1 tag in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Javascript/" style="font-size: 12px; color: #ccc">Javascript</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">Flex布局</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-16T16:35:19+08:00">
+                2019-01-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p><img src="/images/timg.jpg" alt="mahua"><br><a id="more"></a></p>
+<p>1、自适应等宽布局，内容居中，等分宽度(适用菜单)<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"container"</span>&gt;</span><br><span class="line">  &lt;span&gt;&lt;/span&gt;</span><br><span class="line">  &lt;span&gt;&lt;/span&gt;</span><br><span class="line">&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">/</span><span class="regexp">/ scss代码</span></span><br><span class="line"><span class="regexp">.container &#123;</span></span><br><span class="line"><span class="regexp">  display:flex;</span></span><br><span class="line"><span class="regexp">  justify-content: space-between; /</span><span class="regexp">/ 均匀分布</span></span><br><span class="line"><span class="regexp">  align-items: center; /</span><span class="regexp">/ 内容居中</span></span><br><span class="line"><span class="regexp">  &amp; span &#123;</span></span><br><span class="line"><span class="regexp">    flex:1; /</span><span class="regexp">/ 等分大小</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>1、左边固定，右边100%<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"container"</span>&gt;</span><br><span class="line">  &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"header"</span>&gt;&lt;/div&gt;</span><br><span class="line">  &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"text"</span>&gt;&lt;/div&gt;</span><br><span class="line">&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">/</span><span class="regexp">/ scss代码</span></span><br><span class="line"><span class="regexp">.container &#123;</span></span><br><span class="line"><span class="regexp">  display:flex;</span></span><br><span class="line"><span class="regexp">  &amp; .header &#123;</span></span><br><span class="line"><span class="regexp">    width:100px;</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">  &amp; .text &#123;</span></span><br><span class="line"><span class="regexp">    flex:1;</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br></pre></td></tr></table></figure></p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/01/14/JavaScript/" rel="next" title="ES6 常用语法">
+                <i class="fa fa-chevron-left"></i> ES6 常用语法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
